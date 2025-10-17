@@ -1,16 +1,60 @@
-# React + Vite
+# 👋 Olá, eu sou Kauan Matheus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sou desenvolvedor full-stack em React e futuramente back-end em C# ASP.NET.  
+Neste portfólio, você encontrará meus projetos, habilidades e formas de contato.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Sobre Mim
 
-## React Compiler
+- 📍 Localização: Lins - São Paulo, Brasil  
+- 🖥 Área: Desenvolvimento Web Full-Stack  
+- 🎯 Foco: React, & Futuramente C#
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</div>
+
+---
+
+## 📂 Projetos
+
+| Projeto | Descrição | Link |
+|--------|-----------|------|
+| **Site de Vendas de Cursos de Excel** | Um site apenas front-end para vendas de curso de excel | [Ver Projeto](#) |
+| **Sistema Gerenciador de Pagamento de Boletos** | Galeria interativa com filtros e animações | [Ver Projeto](#) |
+| **Sistema de Boletos** | Dashboard de gestão de boletos | [Ver Projeto](#) |
+| **Blog Pessoal** | Blog sobre tecnologia e programação | [Ver Projeto](#) |
+
+---
+
+## 📬 Contato
+
+- ✉️ Email: kauan@email.com  
+- 📱 WhatsApp: +55 11 99999-9999  
+- 🌐 LinkedIn: [Kauan Matheus](https://linkedin.com/in/seu-linkedin)  
+- 🐙 GitHub: [KauanAlves](https://github.com/KauanAlves)  
+- 📷 Instagram: [@kauan.dev](https://instagram.com/kauan.dev)  
+
+---
+
+## ⚡ Curiosidade
+
+> "Transformo ideias em interfaces modernas e experiências digitais inesquecíveis."  
+
+---
+
+## 🌟 Se gostou do meu trabalho
+
+Não se esqueça de me seguir nas redes sociais e conferir meus projetos!  
+Contribuições e feedbacks são sempre bem-vindos. 🚀
