@@ -25,17 +25,6 @@ Neste portfólio, você encontrará meus projetos, habilidades e formas de conta
 
 ---
 
-## 📂 Projetos
-
-| Projeto | Descrição | Link |
-|--------|-----------|------|
-| **Site de Vendas de Cursos de Excel** | Um site apenas front-end para vendas de curso de excel | [Ver Projeto](#) |
-| **Sistema Gerenciador de Pagamento de Boletos** | Galeria interativa com filtros e animações | [Ver Projeto](#) |
-| **Sistema de Boletos** | Dashboard de gestão de boletos | [Ver Projeto](#) |
-| **Blog Pessoal** | Blog sobre tecnologia e programação | [Ver Projeto](#) |
-
----
-
 ## 📬 Contato
 
 - ✉️ Email: kauan8643@email.com  
