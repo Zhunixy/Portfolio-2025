@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-home {
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;    
+    align-items: center;       
+    min-height: 100vh;          
+    width: 100%;                
+    color: white;              
+    text-align: center;        
+    gap: 10px;   
+    flex: 1;     
+    margin-top: 20rem;         
+}
+
+.titulo-home {
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+}
+
+.destaque {
+  color: #ff6600;
+}
+
+.tecla{
+    animation: blink 0.5s step-start infinite;
+}
+
+.p-home {
+  font-size: 1.3rem;
+  color: #ccc;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.scroll {
+  font-size: 2rem;
+  color: #d3d3d3;
+  margin-top: 20px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+

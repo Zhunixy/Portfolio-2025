@@ -8,7 +8,14 @@
 }
 
 body{
-    background-color: #121212;
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #2a2a2a);
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: white;
 }
 
 .logo-img {
@@ -16,7 +23,7 @@ body{
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease;
-  text-align: center;
+  user-select: none;
 }
 
 .logo-img:hover {
@@ -40,19 +47,20 @@ nav:hover {
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 60px;
   transition: width 0.2s ease;
   overflow: hidden;
   z-index: 1000;
+  
 }
 
 .container.closed {
-  width: 120px; 
+  width: 350px; 
 }
 
 .container.closed .logo-img {
   width: 120px;
+  
 }
 
 .contaner.closed .logo-img {
@@ -60,7 +68,8 @@ nav:hover {
 }
 
 .nav-links {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   flex-direction: column;
   list-style: none;
   margin-top: 1rem;
@@ -76,6 +85,8 @@ nav:hover {
 
 .nav-links.nav-active {
   display: flex;
+  opacity: 1;
+  visibility: visible;
   animation: dropdownFade 0.3s ease forwards;
 }
 

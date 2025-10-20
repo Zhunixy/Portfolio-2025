@@ -6,7 +6,7 @@ import "./Header.css";
 function Header() {
   //nessa parte eu criei um estado para controlar se o menu está aberto ou fechado
   const [menuAberto, setMenuAberto] = useState(false);
-
+  
   //função para alternar o estado do menu
   const navOpen = () => {
     //inverte o valor atual de menuAberto
