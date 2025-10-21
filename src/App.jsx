@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Layout/Header.jsx'
 import Footer from './Components/Layout/Footer.jsx' 
 import Home from './Components/Home/Home.jsx'
+import Sobre from './Components/Sobre/Sobre.jsx'
 
 //minha função App que é o componente principal da aplicação
 function App() {
@@ -13,6 +14,7 @@ function App() {
     {/* Aqui to usando os componentes Header e Footer que criei */}
       <Header />
       <Home />
+      <Sobre />
       <Footer />
     </>
   )
