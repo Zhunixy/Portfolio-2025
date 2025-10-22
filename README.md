@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Kauan Matheus
 
-Sou desenvolvedor full-stack em React/Node e futuramente back-end em C# ASP.NET.  
+Sou desenvolvedor full-stack em React/Node. 
 Neste portfólio, você encontrará meus projetos, habilidades e formas de contato.
 
 ---
@@ -9,7 +9,7 @@ Neste portfólio, você encontrará meus projetos, habilidades e formas de conta
 
 - 📍 Localização: Lins - São Paulo, Brasil  
 - 🖥 Área: Desenvolvimento Web Full-Stack  
-- 🎯 Foco: React/Node & Futuramente C#
+- 🎯 Foco: React/Node
 
 ---
 
