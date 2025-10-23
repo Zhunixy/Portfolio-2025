@@ -1,7 +1,6 @@
 # 👋 Olá, eu sou Kauan Matheus
 
-Sou desenvolvedor full-stack em React/NodeJS. 
-Neste portfólio, você encontrará meus projetos e habilidades.
+Bem-vindo ao meu portfólio digital! Sou Kauan Matheus, desenvolvedor full-stack com foco em React e Node.js. Este repositório apresenta uma versão atualizada do meu portfólio profissional, destacando projetos, habilidades técnicas e experiências relevantes.
 
 ---
 
