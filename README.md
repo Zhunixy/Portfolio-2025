@@ -1,7 +1,7 @@
 # 👋 Olá, eu sou Kauan Matheus
 
-Sou desenvolvedor full-stack em React/Node. 
-Neste portfólio, você encontrará meus projetos, habilidades e formas de contato.
+Sou desenvolvedor full-stack em React/NodeJS. 
+Neste portfólio, você encontrará meus projetos e habilidades.
 
 ---
 
@@ -9,7 +9,7 @@ Neste portfólio, você encontrará meus projetos, habilidades e formas de conta
 
 - 📍 Localização: Lins - São Paulo, Brasil  
 - 🖥 Área: Desenvolvimento Web Full-Stack  
-- 🎯 Foco: React/Node
+- 🎯 Foco: React/Node JS
 
 ---
 
@@ -27,15 +27,8 @@ Neste portfólio, você encontrará meus projetos, habilidades e formas de conta
 ## 📬 Contato
 
 - ✉️ Email: kauan8643@email.com  
-- 🌐 LinkedIn: [Kauan Matheus](https://linkedin.com/in/seu-linkedin)  
-- 🐙 GitHub: [KauanAlves](https://github.com/KauanAlves)  
-- 📷 Instagram: [@kauan.dev](https://instagram.com/kauan.dev)  
-
----
-
-## ⚡ Curiosidade
-
-> "Transformo ideias em interfaces modernas e experiências digitais inesquecíveis."  
+- 🌐 LinkedIn: [Kauan Matheus](https://www.linkedin.com/in/kauan-matheus-3211b5244/)  
+- 🐙 GitHub: [kauan-matheus](https://github.com/kausn-matheus)  
 
 ---
 
