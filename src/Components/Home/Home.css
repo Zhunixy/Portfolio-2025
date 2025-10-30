@@ -1,19 +1,20 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
 
 .container-home {
-    display: flex;             
-    flex-direction: column;    
-    justify-content: center;    
-    align-items: center;       
-    height: 100vh;          
-    width: 100%;                
-    color: white;              
-    text-align: center;        
-    gap: 10px;   
-    margin-top: 115rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  gap: 10px;
+  margin-top: 115rem;
 }
 
 .titulo-home {
@@ -26,8 +27,8 @@ html, body {
   color: #ff6600;
 }
 
-.tecla{
-    animation: blink 0.5s step-start infinite;
+.tecla {
+  animation: blink 0.5s step-start infinite;
 }
 
 .p-home {
@@ -35,8 +36,60 @@ html, body {
   color: #ccc;
 }
 
+.btns {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn-link,
+.btn-git {
+  font-size: 18px;
+  font-weight: 600;
+  width: 15rem;
+  padding: 15px 25px;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* LinkedIn - Azul profissional */
+.btn-link {
+  background: linear-gradient(135deg, #0077b5, #00a0dc);
+  color: #fff;
+}
+
+.btn-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 119, 181, 0.4);
+}
+
+/* GitHub - Escuro elegante */
+.btn-git {
+  background: linear-gradient(135deg, #24292e, #3b3f45);
+  color: #fff;
+}
+
+.btn-git:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(36, 41, 46, 0.4);
+}
+
+a{
+  text-decoration: none;
+}
+
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 .scroll {
@@ -47,11 +100,11 @@ html, body {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(15px);
   }
 }
-

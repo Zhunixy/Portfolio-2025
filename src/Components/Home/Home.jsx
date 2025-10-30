@@ -34,10 +34,29 @@ function Home() {
 
   return (
     <div className="container-home">
-        {/* aqui é onde o texto digitado vai aparecer */}
-      <h1 className="titulo-home">{texto}<span className="cursor"></span>  <span className="tecla">|</span> </h1>
-      
+      {/* aqui é onde o texto digitado vai aparecer */}
+      <h1 className="titulo-home">
+        {texto}
+        <span className="cursor"></span> <span className="tecla">|</span>{" "}
+      </h1>
+
       <p className="p-home">Desça para mais informações</p>
+      <div className="btns">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/kauan-matheus-3211b5244/"
+        >
+          <button className="btn-link">
+            <i class="fa-brands fa-linkedin"></i> Meu LinkedIn
+          </button>
+        </a>
+        <a target="_blank" href="https://github.com/kauan-matheus">
+          <button className="btn-git">
+            <i class="fa-brands fa-github"></i> Meu GitHub
+          </button>
+        </a>
+      </div>
+
       <i class="fa-solid fa-computer-mouse scroll"></i>
     </div>
   );
