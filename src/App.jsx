@@ -1,23 +1,53 @@
-//Aqui to importando o React e o useState do React
-import { useState } from 'react'
-import './App.css'
-//aqui to importando os componentes Header e Footer que criei, lembrar sempre de importar
-import Header from './Components/Layout/Header.jsx'
-import Footer from './Components/Layout/Footer.jsx' 
-import Home from './Components/Home/Home.jsx'
-import Sobre from './Components/Sobre/Sobre.jsx'
+//Utilizando um novo hook que é o Router, pra navegar entre componentes
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import Header from "./Components/Layout/Header.jsx";
+import Footer from "./Components/Layout/Footer.jsx";
+import Home from "./Components/Home/Home.jsx";
+import Sobre from "./Components/Sobre/Sobre.jsx";
+import Projetos from "./Components/Projetos/Projetos.jsx";
 
-//minha função App que é o componente principal da aplicação
-function App() {
+function AppContent() {
+  const location = useLocation(); // pega a rota atual (ex: "/", "/projetos")
+
   return (
-    <>
-    {/* Aqui to usando os componentes Header e Footer que criei */}
+    <div className="main-content">
       <Header />
-      <Home />
-      <Sobre />
+
+      <main>
+        {/* Se estiver na rota "/", mostra Home e Sobre */}
+        {location.pathname === "/" && (
+          <>
+            <Home />
+            <Sobre />
+          </>
+        )}
+
+        {/* Se estiver na rota "/projetos", mostra apenas Projetos */}
+        {location.pathname === "/Projetos" && <Projetos />}
+        {location.pathname === "/Sobre" && (
+          <div className="sobre-solo">
+            <Sobre />
+          </div>
+        )}
+      </main>
       <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+//To exportando o app pra poder pegar as rotas no componente do header
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Rota genérica — todas as telas são controladas dentro de AppContent */}
+        <Route path="*" element={<AppContent />} />
+      </Routes>
+    </Router>
+  );
+}

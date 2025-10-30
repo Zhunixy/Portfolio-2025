@@ -23,7 +23,7 @@ function Footer() {
 
       {/* Seção central */}
       <div className="footer-center">
-        <h3>Fique por dentro 🚀</h3>
+        <h3>Fique por dentro</h3>
         <p>Receba novidades e atualizações sobre meus projetos.</p>
         <form className="newsletter">
           <input type="email" placeholder="Seu email" />

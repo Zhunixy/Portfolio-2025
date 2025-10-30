@@ -97,16 +97,17 @@ html, body {
 
 .newsletter button {
   padding: 8px 14px;
-  background-color: #ff6600;
+  background-color: #b6b6b6;
   border: none;
   border-radius: 6px;
-  color: #fff;
+  color: #000000;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .newsletter button:hover {
-  background-color: #ff7b1a;
+  background-color: #000000;
+  color: white;
 }
 
 .footer-contact p {
@@ -194,7 +195,7 @@ html, body {
 .hr-contato {
   width: 40px;
   height: 2px;
-  background-color: #ff6600;
+  background-color: #979797;
   border: none;
   margin-left: 31rem;
   margin-top: -16px; 
